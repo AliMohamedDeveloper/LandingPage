@@ -6,6 +6,8 @@
 
 body {
     height: 100vh;
+    font-family: "Inter", sans-serif;
+
 }
 
 .header {
@@ -35,13 +37,18 @@ a {
 }
 
 .content {
-    margin-top: 20px;
+    margin-top: -5px;
     margin-left: 340px;
 }
 
 p {
     width: 320px;
-    color: #adb5bd;
+
+}
+
+.b1text {
+    color: black;
+    width: 300px;
 
 }
 
@@ -63,6 +70,7 @@ p {
     border-radius: 20px;
 
 }
+
 
 .boximg {
     width: 440px;
@@ -119,12 +127,23 @@ li {
     display: flex;
     align-items: flex-end;
     margin-top: 00px;
-    height: 130px;
-    width: 130px;
-    border: 2px solid rgba(23, 167, 244, 0.676);
+    height: 145px;
+    width: 145px;
     background-color: white;
     border-radius: 20px;
 
+
+}
+
+.b1img,
+.b2img,
+.b3img,
+.b4img {
+
+    width: 145px;
+    height: 145px;
+    border-radius: 22px;
+    margin-bottom: 10px;
 
 }
 
@@ -142,14 +161,14 @@ li {
 }
 
 .section2 {
-    height: 50vh;
+    height: 60vh;
     background-color: white;
 
 }
 
 .section3 {
     height: 40vh;
-    background-color: #adb5bd;
+    background-color: #4361ee;
 
     display: flex;
 
@@ -184,7 +203,7 @@ footer {
     height: 120px;
     /* display: flex; */
 
-    background-color: #4361ee;
+    background-color: #ffb703;
     display: flex;
 
     align-self: center;
@@ -211,7 +230,7 @@ footer {
 
 .author {
     margin-left: 400px;
-    color: #161a1d;
+    color: #ffffff;
     font-weight: 900;
 
 }
@@ -225,7 +244,7 @@ footer {
 }
 
 .quote {
-    color: #495057;
+    color: #ffffff;
     font-size: 18px;
     width: 380px;
     font-style: italic;
@@ -240,4 +259,38 @@ footer {
 
     width: 120px;
     height: 100px;
+}
+
+.section5 p {
+    color: #e5e5e5;
+}
+
+.b1text {
+    /* 1. Control the width to prevent awkward breaks */
+    width: 250px;
+    /* Set a fixed width for the text container */
+
+    /* 2. Control how words break */
+
+    /* 3. OR, prevent words from breaking at all (often looks cleaner) */
+    /* word-wrap: normal; */
+    /* Uncomment this line if you prefer option 2 below */
+
+    /* 4. Text alignment and spacing */
+    text-align: center;
+    /* Centers the text within its 250px box */
+    line-height: 1;
+    /* Adds space between lines for much better readability */
+
+    /* 5. Font styling */
+    color: #333;
+    /* A softer dark gray instead of harsh black */
+    font-size: 1rem;
+    /* Ensures a consistent, readable size */
+
+
+}
+
+.section4 .p2 {
+    color: #4361ee;
 }
