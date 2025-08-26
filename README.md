@@ -30,7 +30,7 @@ I replaced all placeholder content with authentic, themed copy and imagery to cr
 ## Live Demo
 
 [Add the link to your live GitHub Pages or Netlify deployment here once you deploy it]
-> Example: **https://your-username.github.io/lido-beach-resort/**
+> Example: **https://alimohameddeveloper.github.io/LandingPage/**
 
 ## Built With
 
